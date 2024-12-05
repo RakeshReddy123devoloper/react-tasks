@@ -13,7 +13,7 @@ import Footer from './footer'
 //  import Main from './fakestore';
  import Fresher from './fresherjob';
   // import Parent from './propsparent'
-import Accordian from './accodian/accodian';
+// import Accordian from './accodian/accodian';
 // import Parent from "./buttoncards/parent";
 // import Condparent from './condren/condparent';
 // import Table from './bs-table/bs-parenttable';
@@ -40,7 +40,7 @@ root.render(
     <Fresher/>
     {/* <Parent/> */}
      {/* <Parent/>  */}
-     <Accordian/>
+     {/* <Accordian/> */}
      {/* <Condparent/> */}
      {/* <Table/> */}
      {/* <Parent login="user"/> */}
