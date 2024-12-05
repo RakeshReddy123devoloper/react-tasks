@@ -1,0 +1,15 @@
+
+/* .border1{
+    border: 2px solid rgb(253, 22, 22);
+    color: aqua;
+} */
+td,th{
+    border: 2px solid black;
+
+text-align: center;
+background-color: aqua;
+
+}
+.border{
+    margin-left: 50vh;
+}

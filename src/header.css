@@ -1,0 +1,23 @@
+.div1{
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw 10vw 10vw;
+    border: 2px solid black;
+    justify-content: center ;
+    padding: 6px;
+    gap: 10px;
+    border-radius: 40px ;
+ font-size: 5vh;
+ color: rgb(10, 10, 11);
+ background-color:rgb(85, 209, 13);
+ /* text-decoration: none; */
+}
+.href{
+    text-decoration: none;
+}
+h4{
+    border: 1px solid rgb(152, 144, 144);
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px ;
+
+}

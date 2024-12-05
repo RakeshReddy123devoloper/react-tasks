@@ -1,0 +1,50 @@
+.devices{
+    border: 2px solid black;
+    color: rgb(21, 22, 22);
+    background-color: bisque;
+    width: 20vw;
+    border-radius: 10px;
+    text-align: center;
+    margin-left:5vw;
+    box-shadow:10px 10px 10px;
+    }
+    .rakesh1{
+        width:20vw;
+        height: 30vh;
+    border-radius: 5px;
+    }
+    .devices1{
+        border: 2px solid black;
+        color: rgb(21, 22, 22);
+        background-color: bisque;
+        width: 20vw;
+        border-radius: 10px;
+        text-align: center;
+        margin-left:5vw;
+        box-shadow:10px 10px 10px;
+        }
+        .rakesh2{
+            width:20vw;
+            height: 30vh;
+        border-radius: 5px;
+        }
+        .devices2{
+            border: 2px solid black;
+            color: rgb(21, 22, 22);
+            background-color: bisque;
+            width: 20vw;
+            border-radius: 10px;
+            text-align: center;
+            margin-left:5vw;
+            box-shadow:10px 10px 10px;
+            }
+            .rakesh3{
+                width:20vw;
+                height: 30vh;
+            border-radius: 5px;
+            }
+            .santhu{
+                display: grid;
+                grid-template-columns: 20vw 20vw 20vw;
+                gap: 10vw;
+            }

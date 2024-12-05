@@ -1,0 +1,86 @@
+.fresher{
+    border:2px solid solid orange;
+ /* height:30vh; */
+    width:100vw;
+    background-color: rgb(0, 255, 110);
+    text-align: center;
+}
+.fresher1{
+    background-color: rgb(76, 80, 80);
+    /* height: 50px; */
+    /* margin-top: -2vw; */
+
+}
+.fresher2{
+display: flex;
+flex-wrap: wrap;
+gap: 7vw;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-decoration: none;
+}
+.fresher3{
+    display: flex;
+flex-wrap:wrap;
+    text-decoration: none;
+background-color: rgb(78, 85, 86);
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.fresher4{
+    background-color: rgb(210, 208, 205);
+    width:80vw;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    border-radius: 10px 10px 10px;
+}
+.fresher5{
+    padding: 20px;
+}
+.fresher6{
+    margin-top: -5vh;
+    padding: 20px;
+}
+.fresher7{
+    font-size:10vh;
+   
+}
+.fresher8{
+    margin-top: -10vh;
+    padding: 20px
+}
+.fresher9{
+    padding-left:5vw;
+    
+}
+.fresher10{
+    padding-left:3vw;
+}
+/* .fresher11{
+    background-color: rgb(210, 208, 205);
+    width:80vw;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    border-radius: 10px 10px 10px;  
+
+}
+.fresher12{
+    padding: 20px;
+}
+.fresher13{
+    margin-top: -15vh;
+    padding: 20px;
+}
+.fresher14{
+    font-size:10vh;
+} */
+ .fresher12{
+    background-color: rgb(210, 208, 205);
+    width:80vw; 
+    margin-left: 10vw;
+    margin-top: 2vh;
+    border-radius: 10px 10px 10px;
+ }

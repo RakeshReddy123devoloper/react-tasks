@@ -1,0 +1,10 @@
+.sai{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    justify-content: center;
+    border: 2px solid black;
+    font-size:1vw;
+    background-color: bisque;
+    gap: 20px;
+    text-align: center;
+}
