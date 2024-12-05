@@ -15,7 +15,7 @@ import reportWebVitals from './reportWebVitals';
   // import Parent from './propsparent'
 // import Accordian from './accodian/accodian';
 // import Parent from "./buttoncards/parent";
-// import Condparent from './condren/condparent';
+import Condparent from './condren/condparent';
 // import Table from './bs-table/bs-parenttable';
 // import Parent from './condren1/parent';
 // import Parent from './counterapp/parent';
@@ -41,7 +41,7 @@ root.render(
     {/* <Parent/> */}
      {/* <Parent/>  */}
      {/* <Accordian/> */}
-     {/* <Condparent/> */}
+     <Condparent/>
      {/* <Table/> */}
      {/* <Parent login="user"/> */}
      {/* <Farm/> */}
