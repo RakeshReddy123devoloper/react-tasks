@@ -21,7 +21,7 @@ export default function Count(){
     }
     return (
         <div style={{textAlign:"center"}}>
-
+<h1>TASK : 2</h1>
 <h1 style={{color:color}}>{count} </h1>
 <button  onClick={handlebutton}>+1</button>
 <button onClick={handlebutton1}>-1</button>
