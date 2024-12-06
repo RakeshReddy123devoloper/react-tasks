@@ -9,7 +9,7 @@ import Time from './timetable';
 // import Img from './img'
 // import Header from './header'
 // import Footer from './footer'
-// import Main from './mobile'
+import Main from './mobile'
 //  import Main from './fakestore';
 //  import Fresher from './fresherjob';
   // import Parent from './propsparent'
@@ -35,7 +35,7 @@ root.render(
      <Header/> 
       <Img/> 
     <Footer/>  */}
-    {/* <Main/> */}
+   
     
     {/* <Fresher/> */}
     {/* <Parent/> */}
@@ -52,6 +52,7 @@ root.render(
     {/* <Update/> */}
     <Count/>
     <Time/>
+    <Main/>
   </React.StrictMode>
 );
 
