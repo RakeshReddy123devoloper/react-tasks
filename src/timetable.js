@@ -1,8 +1,11 @@
 import './table.css'
 function Time(){
     return(
+  
         <div>
-           
+           <div>
+            <h1 style={{textAlign:"center"}}>task 3 table data</h1>
+           </div>
 <table className="border">
   <tr className='border1'>
     <th>sunday</th>

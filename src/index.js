@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Sample from './sample';
-// import Time from './timetable';
+import Time from './timetable';
 // import Img from './img'
 // import Header from './header'
 // import Footer from './footer'
@@ -30,7 +30,7 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Sample/> */}
-    {/* <Time/> */}
+    
 {/*     
      <Header/> 
       <Img/> 
@@ -51,6 +51,7 @@ root.render(
     {/* <Mount/> */}
     {/* <Update/> */}
     <Count/>
+    <Time/>
   </React.StrictMode>
 );
 
