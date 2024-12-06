@@ -11,7 +11,7 @@ import Time from './timetable';
 // import Footer from './footer'
 import Main from './mobile'
 //  import Main from './fakestore';
-//  import Fresher from './fresherjob';
+ import Fresher from './fresherjob';
   // import Parent from './propsparent'
 // import Accordian from './accodian/accodian';
 // import Parent from "./buttoncards/parent";
@@ -37,11 +37,11 @@ root.render(
     <Footer/>  */}
    
     
-    {/* <Fresher/> */}
+   
     {/* <Parent/> */}
      {/* <Parent/>  */}
      {/* <Accordian/> */}
-     <Condparent/>
+     
      {/* <Table/> */}
      {/* <Parent login="user"/> */}
      {/* <Farm/> */}
@@ -50,9 +50,11 @@ root.render(
     {/* <Todo/> */}
     {/* <Mount/> */}
     {/* <Update/> */}
+    <Condparent/>
     <Count/>
     <Time/>
     <Main/>
+    <Fresher/>
   </React.StrictMode>
 );
 
