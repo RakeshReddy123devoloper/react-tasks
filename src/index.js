@@ -37,7 +37,7 @@ root.render(
    <Sample/> 
     <Time/>
    <Parent/>
-   {/* <Fresher/>  */}
+   <Fresher/> 
    {/* <Accordianfakestore/>
    <Table/> 
     <Counter/> 
