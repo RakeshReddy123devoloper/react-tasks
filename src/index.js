@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import App from './App';
  import reportWebVitals from './reportWebVitals';
 import Sample from './sample';
-// import Time from './timetable';
+import Time from './timetable';
 //  import Fresher from './fresherjob';
 //   import Accordianfakestore from './propsparent'
 // import Parent from "./buttoncards/parent";
@@ -35,8 +35,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
    <Sample/> 
-   {/* <Time/>
-   <Parent/>
+    <Time/>
+  {/* {<Parent/>
    <Fresher/> 
    <Accordianfakestore/>
    <Table/> 
@@ -47,7 +47,7 @@ root.render(
      <Update/> 
        
     <Mount/>
-  <Count/>  */}
+  <Count/>  */} 
 
 
 
