@@ -3,58 +3,64 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import App from './App';
-import reportWebVitals from './reportWebVitals';
+ import reportWebVitals from './reportWebVitals';
 // import Sample from './sample';
-import Time from './timetable';
-// import Img from './img'
+// import Time from './timetable';
+// // import Img from './img'
 // import Header from './header'
 // import Footer from './footer'
-import Main from './mobile'
-//  import Main from './fakestore';
- import Fresher from './fresherjob';
-  // import Parent from './propsparent'
+// import Tablefake from './fakestore';
+//  import Fresher from './fresherjob';
+  import Accordianfakestore from './propsparent'
 // import Accordian from './accodian/accodian';
 // import Parent from "./buttoncards/parent";
-import Condparent from './condren/condparent';
+// import Condparent from './condren/condparent';
 // import Table from './bs-table/bs-parenttable';
-// import Parent from './condren1/parent';
-// import Parent from './counterapp/parent';
+// import Userpage from './condren1/parent';
+// import Counter from './counterapp/parent';
 // import Farm from './forms/formsubmit'
 // import  Even from './taskeven/even'
 // import Todo from './todo/todoapp';
 // import Mount from './lifecycle/mountstate';
-import Count from './funhook/counter';
+// import Count from './funhook/counter';
+// import Mobile from './mobile';
 // import Update from './updatingstate/update'
+// import Calcu from "./calculator/calcu";
+
+// import Cart from './cart/cart';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <Sample/> */}
+    {/* <Sample/>
     
-{/*     
+    
      <Header/> 
       <Img/> 
-    <Footer/>  */}
-   
+    <Footer/> 
+    */}
     
    
-    {/* <Parent/> */}
-     {/* <Parent/>  */}
+     {/* <Counter/> */}
+     <Accordianfakestore/>
      {/* <Accordian/> */}
-     
+     {/* <  Tablefake/> */}
      {/* <Table/> */}
-     {/* <Parent login="user"/> */}
-     {/* <Farm/> */}
+     {/* <Userpage login="user"/> */}
+     {/* <Farm/> */} 
     {/* <Parent/> */}
-    {/* <Even/> */}
-    {/* <Todo/> */}
-    {/* <Mount/> */}
-    {/* <Update/> */}
-    <Condparent/>
-    <Count/>
-    <Time/>
-    <Main/>
-    <Fresher/>
+   {/* <Even/>
+    <Todo/>
+    <Mount/>
+    <Update/> */}
+    
+   {/* <Condparent/>
+   <Count/>
+  <Time/>S
+ <Mobile/>
+     <Fresher/> */} 
+      {/* <Calcu/> */}
+      {/* <Cart/> */}
   </React.StrictMode>
 );
 

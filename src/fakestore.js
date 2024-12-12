@@ -310,7 +310,7 @@ const products = [
 // }
 // export default Main;
 
-function Main() {
+function Tablefake() {
   return (
     <>
       <table>
@@ -346,4 +346,4 @@ function Main() {
     </>
   );
 }
-export default Main
+export default Tablefake

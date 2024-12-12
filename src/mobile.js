@@ -30,7 +30,7 @@ var obj3={
 ram:"12gb",
 rom:"220gb"
 }
-class Main extends Component{
+class Mobile extends Component{
 
     render(){
         return(
@@ -81,7 +81,7 @@ class Main extends Component{
         )
     }
 }
-export default Main
+export default Mobile
 const styles={
    container1:{
     color:"green",

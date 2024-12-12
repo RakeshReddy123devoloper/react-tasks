@@ -1,5 +1,5 @@
 import React,{ Component } from "react"
-class Parent extends Component{
+class Counter extends Component{
     constructor(props){
         super()
         this.state={count:2}
@@ -30,7 +30,7 @@ render(){
     )
 }
 }
-export default Parent
+export default Counter
 
 
 

@@ -298,10 +298,10 @@ const data = [
       },
     ];
 
-class Parent extends Component {
+class  Accordianfakestore extends Component {
   render() {
     return (
-      <div>
+      <div >
         {/* <Notification>
         <h1>hello</h1>
         <p>rakesh</p>
@@ -318,7 +318,7 @@ class Parent extends Component {
         
 
     {/* <Accordian title="raksh" name="herp1"/> */}
-
+<h1 style={{textAlign:"center", marginTop:"10vh"}}>Accordian task 6 </h1>
       {data.map((a,b)=>{
         return(
           <Accordian title= {a.title} price={a.price} img={a.image} desc={a.description}/>
@@ -328,4 +328,4 @@ class Parent extends Component {
     );
   }
 }
-export default Parent;
+export default Accordianfakestore;

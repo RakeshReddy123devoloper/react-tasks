@@ -8,7 +8,7 @@ function Child(props){
 
    
     
-<Card style={{ width: '18rem' }}>
+<Card style={{display:"flex",marginLeft:"20vw", width:"40vw"}}>
       <Card.Img variant="top" src={props.img}/>
       <Card.Body style={{height:"150px",overflow:"scroll"}}>
         <Card.Title>{props.title}</Card.Title>

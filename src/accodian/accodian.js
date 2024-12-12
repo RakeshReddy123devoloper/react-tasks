@@ -269,7 +269,7 @@ import Accordion from 'react-bootstrap/Accordion';
 //     },
 //   ];
  function Accordian(props){
-    return(6+
+    return(
 <div >
 <Accordion >
       <Accordion.Item>

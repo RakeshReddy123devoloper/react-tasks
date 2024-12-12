@@ -274,7 +274,7 @@ function Parent(){
 <div >
     {products.map((a,b)=>{
         return(
-<Child />
+<Child img={a.image} title={a.title} price={a.price} rating={a.rating} desc={a.description} cat={a.category}/>
         )
     })}
 
