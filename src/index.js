@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
  import reportWebVitals from './reportWebVitals';
 import Sample from './sample';
 import Time from './timetable';
- import Fresher from './fresherjob';
-//   import Accordianfakestore from './propsparent'
 import Parent from "./buttoncards/parent";
+import Fresher from './fresherjob';
+  import Accordianfakestore from './propsparent'
 // import Table from './bs-table/bs-parenttable';
 // import Counter from './counterapp/parent';
 // import Farm from './forms/formsubmit'
@@ -38,8 +38,8 @@ root.render(
     <Time/>
    <Parent/>
    <Fresher/> 
-   {/* <Accordianfakestore/>
-   <Table/> 
+    <Accordianfakestore/>
+   {/* <Table/> 
     <Counter/> 
      <Farm/> 
       <Even/>
@@ -47,7 +47,7 @@ root.render(
      <Update/> 
        
     <Mount/>
-  <Count/>  */} 
+  <Count/>  */}  
 
 
 
