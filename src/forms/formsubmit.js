@@ -22,7 +22,8 @@ handlesubmit=(e)=>{
         }
 render(){
     return (
- <div>
+ <div style={{textAlign:"center"}}>
+    <h1 style={{textAlign:"center", marginTop:"20vh"}}> form submission task 8</h1>
     <form onSubmit={this.handlesubmit}>
         <input type="text" name="fname" onChange={this.handlechange}/>
         <input type="text"  name="sname" onChange={this.handlechange}/>

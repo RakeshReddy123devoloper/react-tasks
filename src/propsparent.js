@@ -302,6 +302,7 @@ class  Accordianfakestore extends Component {
   render() {
     return (
       <div >
+        <h1 style={{textAlign:"center",marginTop:"20vh"}}>Accordian task5</h1>
         {/* <Notification>
         <h1>hello</h1>
         <p>rakesh</p>
@@ -318,7 +319,7 @@ class  Accordianfakestore extends Component {
         
 
     {/* <Accordian title="raksh" name="herp1"/> */}
-<h1 style={{textAlign:"center", marginTop:"10vh"}}>Accordian task 6 </h1>
+
       {data.map((a,b)=>{
         return(
           <Accordian title= {a.title} price={a.price} img={a.image} desc={a.description}/>

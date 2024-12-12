@@ -79,7 +79,8 @@ class Even extends Component {
 
     render() {
         return (
-            <div>
+            <div style={{textAlign:"center"}}>
+                <h1 style={{textAlign:"center", marginTop:"20vh"}}>even odd task 9</h1>
                 <form onSubmit={this.handsubmit}>
                     <input type="text" name="number" onChange={this.handlechange} />
                     <input type="submit" />

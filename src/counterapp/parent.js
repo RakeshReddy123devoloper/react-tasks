@@ -19,8 +19,8 @@ handleevent3=()=>{
 }
 render(){
     return(
-        <div>
-
+        <div style={{textAlign:"center"}}>
+<h1 style={{textAlign:"center",marginTop:"20vh"}}>counter task 7</h1>
            <h1> <button onClick={this.handleevent}>+</button></h1>
            <h1> <button onClick={this.handleevent1}>-</button></h1>
            <h1>  {this.state.count}</h1>

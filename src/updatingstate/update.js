@@ -116,6 +116,7 @@ class Update extends React.Component {
     const { count, product } = this.state;
     return (
       <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+        <h1 style={{textAlign:"center", marginTop:"20vh"}}>spinner task 11</h1>
         <div>
           <h1>{count}</h1>
           <button onClick={this.increment}>next</button>

@@ -184,7 +184,8 @@ class Mount extends React.Component {
     }
 
     return (
-      <div>
+      <div style={{textAlign:"center"}}>
+        <h1 style={{textAlign:"center"}}>buttoncards task 12</h1>
         <div
           style={{
             display: "flex",

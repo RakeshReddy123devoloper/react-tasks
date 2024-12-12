@@ -272,6 +272,7 @@ const products = [
 function Parent(){
     return(
 <div >
+  <h1 style={{textAlign:"center", marginTop:"20vh" }}>task 3 cards</h1>
     {products.map((a,b)=>{
         return(
 <Child img={a.image} title={a.title} price={a.price} rating={a.rating} desc={a.description} cat={a.category}/>

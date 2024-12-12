@@ -4,7 +4,7 @@ function Time(){
   
         <div>
            <div>
-            <h1 style={{textAlign:"center"}}>task 3 table data</h1>
+            <h1 style={{textAlign:"center", marginTop:"20vh"}}>task 2 table data</h1>
            </div>
 <table className="border">
   <tr className='border1'>

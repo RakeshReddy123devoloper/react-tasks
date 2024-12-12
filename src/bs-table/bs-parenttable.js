@@ -271,6 +271,7 @@ const products = [
 function Table(){
     return (
 <div>
+  <h1 style={{textAlign:"center",marginTop:"20vh"}}>bootstrap table task 6</h1>
 {products.map((a,b)=>{
     return (<Table1 id={a.id} title={a.title} price={a.price} desc={a.description} image={a.image} rate={a.rating.rate} count={a.rating.count} />)})}
 </div>

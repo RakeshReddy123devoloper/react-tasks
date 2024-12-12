@@ -126,7 +126,8 @@ class Todo extends Component {
 
     render() {
         return (
-            <div>
+            <div style={{textAlign:"center"}}>
+                <h1 style={{textAlign:"center", marginTop:"20vh"}}> todo task 10</h1>
                 <form onSubmit={this.handlesubmit}>
                     <input type="text" name="todo" onChange={this.handlechange} value={this.state.todo} />
                     <input type="submit" />
