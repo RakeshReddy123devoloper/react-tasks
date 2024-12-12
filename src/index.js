@@ -9,14 +9,14 @@ import Time from './timetable';
 import Parent from "./buttoncards/parent";
 import Fresher from './fresherjob';
   import Accordianfakestore from './propsparent'
-// import Table from './bs-table/bs-parenttable';
-// import Counter from './counterapp/parent';
-// import Farm from './forms/formsubmit'
-// import  Even from './taskeven/even'
-// import Todo from './todo/todoapp';
-// import Mount from './lifecycle/mountstate';
-// import Count from './funhook/counter';
-// import Update from './updatingstate/update';
+import Table from './bs-table/bs-parenttable';
+import Counter from './counterapp/parent';
+import Farm from './forms/formsubmit'
+import  Even from './taskeven/even'
+import Todo from './todo/todoapp';
+import Mount from './lifecycle/mountstate';
+import Count from './funhook/counter';
+import Update from './updatingstate/update';
 
 
 
@@ -39,7 +39,7 @@ root.render(
    <Parent/>
    <Fresher/> 
     <Accordianfakestore/>
-   {/* <Table/> 
+    <Table/> 
     <Counter/> 
      <Farm/> 
       <Even/>
@@ -47,7 +47,7 @@ root.render(
      <Update/> 
        
     <Mount/>
-  <Count/>  */}  
+  <Count/>  
 
 
 
