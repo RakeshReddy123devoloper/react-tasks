@@ -1,0 +1,9 @@
+.link1{
+    text-decoration: none;
+    color: rgb(30, 28, 29);
+    display: flex;
+    font-size: 5vh;
+    background-color: rgb(13, 216, 216);
+    border-radius: 10px 10px 10px;
+ 
+}

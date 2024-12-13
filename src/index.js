@@ -4,22 +4,25 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import App from './App';
  import reportWebVitals from './reportWebVitals';
-// import Sample from './sample';
-// import Time from './timetable';
-// import Parent from "./buttoncards/parent";
-// import Fresher from './fresherjob';
-//   import Accordianfakestore from './propsparent'
-// import Table from './bs-table/bs-parenttable';
-// import Counter from './counterapp/parent';
-// import Farm from './forms/formsubmit'
-// import  Even from './taskeven/even'
-// import Todo from './todo/todoapp';
-// import Mount from './lifecycle/mountstate';
-// import Count from './funhook/counter';
-// import Update from './updatingstate/update';
+import Sample from './sample';
+import Time from './timetable';
+import Parent from "./buttoncards/parent";
+import Fresher from './fresherjob';
+  import Accordianfakestore from './propsparent'
+import Table from './bs-table/bs-parenttable';
+import Counter from './counterapp/parent';
+import Farm from './forms/formsubmit'
+import  Even from './taskeven/even'
+import Todo from './todo/todoapp';
+import Mount from './lifecycle/mountstate';
+import Count from './funhook/counter';
+import Update from './updatingstate/update';
+import Main from "./react-router/main";
 
 
 
+
+import Main1 from "../src/reactroute1/main1"
 // import Calcu from "./calculator/calcu";
 // import Cart from './cart/cart';
 // // import Img from './img'
@@ -34,7 +37,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-   {/* <Sample/> 
+   <Sample/> 
     <Time/>
    <Parent/>
    <Fresher/> 
@@ -46,11 +49,12 @@ root.render(
      <Todo/>
      <Update/>   
     <Mount/>
-  <Count/>   */}
+  <Count/>  
+<Main/>
 
 
 
-
+{/* <Main1/> */}
      {/* <Header/> 
       <Img/> 
     <Footer/> 
