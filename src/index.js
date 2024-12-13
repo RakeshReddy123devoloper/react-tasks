@@ -74,7 +74,7 @@ root.render(
  
  {/* <Mobile/> */}
     
-      <Calcu/>
+      {/* <Calcu/> */}
       {/* <Cart/> */}
   </React.StrictMode>
 );
