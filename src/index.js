@@ -22,8 +22,8 @@ import Main from "./react-router/main";
 
 
 
-import Main1 from "../src/reactroute1/main1"
-// import Calcu from "./calculator/calcu";
+// import Main1 from "../src/reactroute1/main1"
+import Calcu from "./calculator/calcu";
 // import Cart from './cart/cart';
 // // import Img from './img'
 // import Header from './header'
@@ -37,7 +37,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-   <Sample/> 
+    <Sample/> 
     <Time/>
    <Parent/>
    <Fresher/> 
@@ -74,7 +74,7 @@ root.render(
  
  {/* <Mobile/> */}
     
-      {/* <Calcu/> */}
+      <Calcu/>
       {/* <Cart/> */}
   </React.StrictMode>
 );
