@@ -23,7 +23,7 @@ import Main from "./react-router/main";
 
 
 // import Main1 from "../src/reactroute1/main1"
-import Calcu from "./calculator/calcu";
+// import Calcu from "./calculator/calcu";
 // import Cart from './cart/cart';
 // // import Img from './img'
 // import Header from './header'
@@ -35,9 +35,11 @@ import Calcu from "./calculator/calcu";
 // import Accordian from './accodian/accodian';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
-    {/* <App /> */}
-    <Sample/> 
+   <div>
+     {/* <App /> */}
+     <Sample/> 
     <Time/>
    <Parent/>
    <Fresher/> 
@@ -76,6 +78,7 @@ root.render(
     
       {/* <Calcu/> */}
       {/* <Cart/> */}
+   </div>
   </React.StrictMode>
 );
 
